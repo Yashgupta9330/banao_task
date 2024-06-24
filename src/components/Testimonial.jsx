@@ -5,7 +5,7 @@ import { ImQuotesLeft } from "react-icons/im";
 export default function Testimonial() {
   return (
     <div className="flex w-full h-full items-center justify-center mb-32">
-      <div className="px-6 w-[90%] md:w-3/5">
+      <div className="px-6 w-[90%] md:w-[65%]">
         <div className="space-y-4">
           <div className="flex items-center">
             <ImQuotesLeft size={30} color="#8064a2" className="mr-2" />
