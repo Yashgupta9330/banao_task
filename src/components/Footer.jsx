@@ -12,7 +12,7 @@ export default function Footer() {
   return (
     <div className="bg-gray-100 w-full flex flex-col items-center justify-center">
       <div className="w-[80%] py-8 px-2">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0">
           {/* Column 1 */}
           <div>
             <h5 className="text-[16px] font-[700] font-poppins text-left leading-[18px] tracking-tighter mb-2">Hobbycue</h5>
@@ -71,7 +71,7 @@ export default function Footer() {
                 />
                 <button
                   type="submit"
-                  className="bg-blue-500 text-white py-3 px-6 rounded-r-lg mt-2 sm:mt-0 sm:ml-1 w-full sm:w-auto hover:bg-blue-600 focus:outline-none focus:bg-blue-600 transition-colors duration-300"
+                  className="bg-blue-500 text-white py-3 px-4 rounded-r-lg mt-2 sm:mt-0 sm:ml-1 w-full sm:w-auto hover:bg-blue-600 focus:outline-none focus:bg-blue-600 transition-colors duration-300"
                 >
                   Invite
                 </button>
